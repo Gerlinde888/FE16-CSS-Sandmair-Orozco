@@ -1,0 +1,23 @@
+.container {
+    width: 800px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0 50 0 50;
+    box-shadow: 2px 0 5px;
+    box-shadow: 0 2px 5px;
+}
+
+p {
+    color: #707070;
+}
+
+li {
+    color: #707070;
+}
+
+header {
+    right: 50%;
+    transform: translate(-50px);
+}
