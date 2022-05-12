@@ -1,12 +1,10 @@
 .container {
     width: 800px;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    padding: 0 50 0 50;
+    position:relative;
+    margin: auto;
+    padding: 0 50px 0 50px;
     box-shadow: 2px 0 5px;
-    box-shadow: 0 2px 5px;
+    box-shadow:  0 2px 5px;
 }
 
 p {
@@ -15,10 +13,36 @@ p {
 
 li {
     color: #707070;
+    padding: 5px 0 5px 0;
 }
 
 header {
-    right: 50%;
-    transform: translate(-50px);
     text-align: center;
+}
+
+.hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#rating {
+    font-size: 25px;
+    color: #F4B400;
+}
+
+footer>* {
+    margin:auto;
+}
+
+h1 {
+    color: #DB0038;
+}
+
+h2 {
+    color: #3998A3;
+}
+
+h3 {
+    color: #474747;
 }
